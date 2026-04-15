@@ -1,13 +1,6 @@
-## 🔧 What was done
-- 
+## ✅ Checklist before requesting a review
 
-## 🎯 Why
-- 
-
-## 🧪 How to test
-1. 
-
-## 📌 Checklist
-- [ ] Code works locally
-- [ ] No errors in logs
-- [ ] Ready for review
+- [ ] I have performed a self-review of my code
+- [ ] If it is a core feature, I have added thorough tests
+- [ ] Do we need to implement analytics?
+- [ ] Will this be part of a product update? If yes, add one phrase
