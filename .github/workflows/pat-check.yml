@@ -1,0 +1,20 @@
+name: PAT Check Workflow
+
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+
+jobs:
+  check-token:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+
+      - name: Confirm workflow started
+        run: echo "Workflow is running with PAT secret configured!!!!"
